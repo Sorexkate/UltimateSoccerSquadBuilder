@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Browse Players
+        </title>
+
+        <link rel="stylesheet" type="text/css" href ="/client/css/user.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+        <script src="/client/js/browsePlayers.js" async></script> 
+
+    </head>
+
+    <body background="/client/images/fondoUsuario.jpeg">
+        
+        <header>
+            <h1>Players repository</h1>
+        </header>
+
+
+
+
+<!--Buttons to move between screens-->
+        <div class="buttonAdmin" id="buttonAdmin">
+            <a href="/client/adminPage.html" >  
+                <button id="buttonAdmin">Admin Page</button> 
+                </a>
+        </div>
+        
+            <div class="buttonMain" id="buttonMain">
+                <a href="/client/paginaPrincipal.html" >  
+                    <button id="buttonMain">Main Page</button> 
+                </a>
+            </div>
+       
+        <!--Form for the players-->
+        <div style="float:right;">
+            <form>
+                <label for = "player_name">Player Name: </label>
+                <input id="player_name" size '90'>
+        
+
+
+                <label for = "player_position"> Player Position: </label>
+                <select id="player_position">
+        
+                    <option value="GK"> goalkeeper</option>
+                    <option value="CBL"> Central Back Left</option>
+                    <option value="CB"> Central Back </option>
+                    <option value="CBR"> Central Bacl Right</option>
+                    <option value="DL"> Defensive Left</option>
+                    <option value="DR"> Defensive Right</option>
+                    <option value="CML"> Central Midfield Left</option>
+                    <option value="CM"> Central Midfield </option>
+                    <option value="CMR"> Central Midfield Right</option>
+                    <option value="CF"> Centre-forward</option>
+                    <option value="ST"> Striker </option>
+                    
+                </select>
+        
+                <div>
+                    <button id = 'player-submit'>Submit Player Info</button>
+                </div>
+        
+            </form> 
+        </div>
+
+<!--Form for the teams (work in progress)-->
+
+            <form >
+                <div style="display:flex; flex-direction:row;" id="team_dropdown">
+                    <label for="team_id"> Team Name: </label>
+                    <select id="team_id">
+                        <option value="">Choose a Team</option>
+                    </select>
+                    <button id="takeTeam">Select Team</button>
+                </div>
+            </form>
+<!--Div that creates the field and the players inside of it-->
+
+     <div class="field">
+
+        <div class="player position-GK">
+            <div id="GK" class="name">GK</div>
+        </div>
+        <div class="player position-RCB">
+            <div id="RCB" class="name">RCB</div>
+        </div>
+        <div class="player position-CB">
+            <div id="CB" class="name">CB</div>
+        </div>
+        <div class="player position-LCB">
+            <div id="LBC" class="name"> LCB</div>
+        </div>
+        <div class="player position-DR">
+            <div id="DR" class="name">DR</div>
+        </div>
+        <div class="player position-DL">
+            <div id="DL" class="name">DL</div>
+        </div>
+        <div class="player position-CML">
+            <div id="CML" class="name">CML</div>
+        </div>
+        <div class="player position-CM">
+            <div id="CM" class="name">CM</div>
+        </div>
+        <div class="player position-CMR">
+            <div id="CMR" class="name">CMR</div>
+        </div>
+        <div class="player position-CF">
+            <div id="CF" class="name">CF</div>
+        </div>
+        <div class="player position-ST">
+            <div id="ST" class="name">ST</div>
+        </div>
+
+     </div>
+   
+
+    </body>
+
+
+</html>
+

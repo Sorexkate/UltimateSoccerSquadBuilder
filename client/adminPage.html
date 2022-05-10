@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href ="/client/CSS/adminPage.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/client/js/adminPage.js" async></script>
+
+            <title>
+            Ultimate SS Builder (Admin)
+            </title>
+    </head>
+
+    <body  id=fondo background="/client/images/fondoAdmin.jpeg">  
+        <header> 
+            <h1 id="h1">Admin can Add/delete Leagues Teams and players for the Teams</h1>
+        </header>
+
+        
+            <a href="/client/paginaPrincipal.html">  
+                <button class="buttonPrincipal">Main Page</button>
+            </a> 
+        
+            
+            <a href="/client/browsePlayers.html">  
+                <button class = "buttonUser">User Page</button>
+                </a>
+            
+
+        <!--This form is for the League info-->
+        <form id="league_info">
+            <label for= "league_name">league Name:</label>
+            <input id="league_name" size '90'>
+
+            <label for= "league_country">league Country:</label>
+            <input id="league_country" size '90'>
+
+            <div>
+                <button id = 'data-submit'>Submit League Info </button>
+            </div>
+    
+        </form>
+        
+       
+<!--Form for the Team Info -->
+        <form id="team_info">
+            <div >
+                <label for = "team_name">Team Name: </label>
+                <input id="team_name" size '90'>
+            </div>
+            
+            
+            <div id="league_dropdown">
+                <label for = "league_name"> League: </label>
+                <select id="Select_League">
+                    <option value="">Choose a League </option>
+                </select>
+            </div>
+           
+
+            <div>
+                <button id = 'team-submit'>Submit Team Info</button>
+            </div>
+
+        </form>  
+
+    <!--Form for the Players info-->
+    <form id="player_form">
+        <label for = "player_name">Player Name: </label>
+        <input id="player_name" size '90'>
+
+        <label for = "player_position"> Player Position: </label>
+        <select id="player_position">
+
+            <option value="GK"> goalkeeper</option>
+            <option value="RCB"> Right Central Back</option>
+            <option value="CB"> Central Back</option>
+            <option value="LCB"> Left Central Back</option>
+            <option value="DR"> Defensive Right</option>
+            <option value="DL"> Defensive Left</option>
+            <option value="CM"> Central Midfield</option>
+            <option value="CML"> Central Midfield Left</option>
+            <option value="CMR"> Central Midfield Right</option>
+            <option value="CF"> Centre-forward</option>
+            <option value="ST"> Striker</option>
+             
+        </select>
+
+            <div id="team_dropdown">
+                <label for="team_id"> Team Name: </label>
+       
+                <select id="team_id">
+                    <option value="">Choose a Team</option>
+                </select>
+
+                
+            </div>
+            <button id='player-submit'>Submit Player Info </button>
+    </form> 
+    
+    </body>
+</html>

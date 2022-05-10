@@ -1,0 +1,144 @@
+
+.field{
+  margin-top: 10px;
+  background-image:url("/client/images/soccerField.jpg");
+  width: 600px; 
+  height: 800px;
+  background-size: cover;
+  position:relative;
+}
+
+.player{
+  border: 3px solid white;
+  width: 30px; 
+  height: 30px;
+  background-color: rgb(222, 0, 0);
+  border-radius:30px ;
+  position: absolute;
+  
+}
+
+.position-GK{
+  top:95%;
+  left: 50%;
+  margin-left:-15px;
+}
+
+.position-RCB{
+  top:80%;
+  left: 70%;
+  margin-left:-15px;
+}
+
+.position-CB{
+  top:80%;
+  left: 50%;
+  margin-left:-15px;
+}
+
+.position-LCB{
+  top:80%;
+  left: 30%;
+  margin-left:-15px;
+}
+
+.position-DR{
+  top:75%;
+  left: 85%;
+  margin-left:-15px;
+}
+
+.position-DL{
+  top:75%;
+  left: 15%;
+  margin-left:-15px;
+}
+
+.position-CML{
+  top:50%;
+  left: 15%;
+  margin-left:-15px;
+}
+
+.position-CM{
+  top:50%;
+  left: 50%;
+  margin-left:-15px;
+}
+
+.position-CMR{
+  top:50%;
+  left: 85%;
+  margin-left:-15px;
+}
+
+.position-CF{
+  top:25%;
+  left: 50%;
+  margin-left:-15px;
+}
+
+.position-ST{
+  top:15%;
+  left: 50%;
+  margin-left:-15px;
+}
+
+
+
+.player .name{
+  position:absolute;
+  background: black;
+  color: white;
+  bottom:-20px;
+
+  padding:2px 6px;
+  border-radius:3px ;
+  
+  left:50%;
+  transform: translate(-50%, 0);
+
+}
+
+#GK{
+    position: relative;
+}
+
+.buttonAdmin {
+    background-color: #88d7f9; 
+    border: black 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .buttonMain {
+    background-color: #88d7f9; 
+    border: black 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right:0%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  
+
+  
+ 

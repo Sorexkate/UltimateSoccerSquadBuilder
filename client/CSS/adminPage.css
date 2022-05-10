@@ -1,0 +1,59 @@
+
+#h1{
+ border: 2px solid black;
+background-color: rgba(255, 255, 255, 0.753);
+}
+
+#display_image{
+    width: 375px;
+    height: 211px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+.buttonPrincipal {
+    background-color: #88d7f9; 
+    border: black 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .buttonUser {
+    background-color: #88d7f9; 
+    border: black 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  #fondo{
+     /* Center and scale the image nicely */
+   background-repeat:no-repeat;
+   background-size:cover;
+   height: 100%;
+  }
+
+  #team_info{
+    top:20%;
+  }
+ 

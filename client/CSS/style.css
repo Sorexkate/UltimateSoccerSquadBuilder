@@ -1,0 +1,48 @@
+#title{
+  text-align: center;
+  text-decoration: double;
+  font-size: 40px;
+  background-color: aliceblue;
+
+}
+
+#fondo{
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.buttonAdmin {
+  background-color: #d32828; 
+  border: black 3px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.buttonUser {
+  border-radius:6px;
+  background-color: #d32828; 
+  border: black 3px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
